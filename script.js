@@ -1,3 +1,9 @@
+const THEME = 'dark'; // wird gleich ersetzt
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.body.dataset.theme = THEME;
+  // @ui.init
+});
+
 // --- State ---
 const S = JSON.parse(localStorage.getItem("abg_state")||"null")||{
   lvl:1, hp:10, maxHp:10, gold:0,

@@ -1,3 +1,7 @@
+/* @theme.base */
+/* @theme.dark */
+[data-theme="dark"]{ background:#111; color:#eee; }
+[data-theme="light"]{ background:#f6f6f6; color:#111; }
 :root { --bg:#111; --fg:#eee; --muted:#9aa; --card:#1b1b1b; --accent:#fff; }
 *{box-sizing:border-box} html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--fg);font:16px/1.4 system-ui, sans-serif;display:grid;place-items:center}
