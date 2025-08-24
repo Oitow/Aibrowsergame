@@ -1,16 +1,4 @@
-/* @theme.base */
-/* @theme.dark */
-[data-theme="dark"]{ background:#111; color:#eee; }
-[data-theme="light"]{ background:#f6f6f6; color:#111; }
-:root { --bg:#111; --fg:#eee; --muted:#9aa; --card:#1b1b1b; --accent:#fff; }
-*{box-sizing:border-box} html,body{margin:0;height:100%}
-body{background:var(--bg);color:var(--fg);font:16px/1.4 system-ui, sans-serif;display:grid;place-items:center}
-main{width:min(520px,92vw);display:grid;gap:12px}
-header{width:min(520px,92vw);margin-bottom:6px}
-h1{margin:12px 0 6px 0;font-size:22px}
-#stats{color:var(--muted)}
-#enemy{background:var(--card);padding:16px;border-radius:12px;display:grid;gap:6px;text-align:center}
-#enemy .name{font-weight:700}
-#actions{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px}
-button{padding:10px;border:1px solid #333;background:#000;color:var(--accent);border-radius:10px}
-#log{background:#000;min-height:140px;max-height:40vh;overflow:auto;border-radius:12px;padding:10px;font-size:14px}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}

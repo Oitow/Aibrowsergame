@@ -1,32 +1,13 @@
-<!--@ui.header--><!--/@ui.header-->
-<!doctype html>
-<html lang="de">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Aibrowsergame</title>
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Idle RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <header>
-    <h1>⚔️ Aibrowsergame</h1>
-    <div id="stats">Lvl 1 | HP 10/10 | Gold 0</div>
-  </header>
-
-  <main>
-    <section id="enemy">
-      <div class="name">Schleim</div>
-      <div class="hp">HP 5/5</div>
-    </section>
-
-    <section id="actions">
-      <button id="atk">Angriff</button>
-      <button id="auto">Auto: AUS</button>
-      <button id="save">Speichern</button>
-      <button id="reset">Reset</button>
-    </section>
-
-    <section id="log" aria-live="polite"></section>
-  </main>
-
-  <script defer src="script.js"></script>
+    <h1>Mein Idle RPG</h1>
+    <p id="gold">Gold: 0</p>
+    <button onclick="mine()">Mine</button>
+    <script src="game.js"></script>
 </body>
 </html>
